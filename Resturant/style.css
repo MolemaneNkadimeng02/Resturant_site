@@ -1,0 +1,98 @@
+.heading{
+    text-align: center;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin:auto;
+    padding: 15px 0;
+    align-self: center;
+    justify-content: space-between;
+
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.logo{
+    width: 10px;
+    height: 60px;
+}
+ul{
+    margin-top: 1%;
+}
+ul li{
+    color: #000;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+    border: 10px;
+}
+ul li a:hover{
+    color: orangered;
+}
+h1{
+    font-size: 40px;
+    color: rgb(199, 13, 13);
+}
+h2{
+    font-size: 30px;
+    color: rgb(191, 44, 44);
+}
+p{
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h3{
+    font-size: 20px;
+    color: rgb(191, 44, 44);
+
+}
+header{
+    background: url(images/head.jpg);
+    background-color: rgb(233, 114, 11);
+}
+main{
+    width: 100%;
+    background: url(images/main1.webp);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+.navbar a {
+    display: inline-block;
+    width: 150px;
+    color: solid white;
+    text-align: center; 
+    background-color: white; 
+    border: 2px solid orangered;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    opacity: 0.5;
+}
+.myList{
+    display: inline-block;
+    width: 350px;
+    height: auto;
+    color: solid white;
+    text-align: center;
+    background-color: white;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+table,th,td {
+    color: white;
+    background-color: #000;
+    border:5px solid grey;
+    border-collapse: collapse;
+
+}
